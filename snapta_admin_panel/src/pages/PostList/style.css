@@ -1,0 +1,5 @@
+.custom-dialog .MuiDialog-paper {
+  width: 500px;
+  max-width: 90vw;
+  padding: 0px !important;
+}

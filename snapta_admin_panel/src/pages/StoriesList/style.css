@@ -1,0 +1,11 @@
+.custom-dialog .MuiDialog-paper {
+    width: 500px;
+    max-width: 90vw;
+    padding: 0px !important;
+  }
+
+  .custom-story .MuiDialog-paper {
+    width: 900px;
+    max-width: 80vw;
+    padding: 0px !important
+  }

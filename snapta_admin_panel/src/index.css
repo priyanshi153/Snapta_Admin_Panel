@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Poppins:wght@400;600&family=Gilroy&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-radio {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #a0aec0; /* Default border color (gray) */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.custom-radio:checked {
+  border-color: #452B7A; /* Border color when checked */
+}
+
+.custom-radio:checked::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #452B7A; /* Inner circle color when checked */
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+:root {
+  --border-gradient: linear-gradient(213deg, #6C47B7 -27.59%, #341F60 105.15%);
+}

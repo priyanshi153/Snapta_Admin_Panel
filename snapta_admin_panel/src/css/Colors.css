@@ -1,0 +1,22 @@
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #fafafa;
+    /* --color-yellow: #fafafa; */
+    --border-color: #eeeeee;
+    --dark-text: #000000;
+    --light-text: #3A3A3A;
+    --table-light-large: #00162e;
+    --border-gradient: linear-gradient(213deg, #6C47B7 -27.59%, #341F60 105.15%);
+    --icon-color:linear-gradient(141.72deg, #239C57 -1.01%, #019FC8 103.86%);
+  }
+  
+  .dark {
+    --color-primary: rgb(17 17 17);
+    --color-secondary: #1d1d1d;
+    --border-color: #eeeeee14;
+    --dark-text: #ffffff;
+    --light-text: #a4a4a4;
+    --table-dark-large: #616161;
+    --Sidebar-Text:"linear-gradient(213deg, #6C47B7 -27.59%, #341F60 105.15%)"
+  }
+  

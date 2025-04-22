@@ -1,0 +1,34 @@
+.custom-player 
+{
+    width: 200px;
+    border: none;
+    background: none;
+    height: 50px;
+    box-shadow: none;
+    color: #FFFFFF;
+}
+
+.custom-player .rhap-progress-section {
+    display: none !important;
+  }
+  
+  .custom-player .rhap-time {
+    display: none !important;
+  }
+  
+  .custom-player .rhap-volume-controls {
+    display: none !important;
+  }
+  
+  .custom-player .rhap-controls-section {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .custom-player {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  

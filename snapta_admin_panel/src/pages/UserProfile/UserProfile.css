@@ -1,0 +1,18 @@
+.custom-user .MuiDialog-paper 
+{
+    width: 480px;
+    max-width: 80vw;
+    padding: 0 !important;
+    border-radius: 15px;
+}
+
+.custom-title .MuiDialog-paper 
+{
+    color:#000000;
+    font-style: bold;
+}
+
+.dark-custom-user .MuiDialog-paper 
+{
+    background-color: #000000;
+}

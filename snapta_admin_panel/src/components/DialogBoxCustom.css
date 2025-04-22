@@ -1,0 +1,21 @@
+.avatar-dialog .MuiDialog-paper {
+    width: 550px;
+    max-width: 90vw;
+    padding: 0px !important;
+    border-radius: 20px;
+  }
+  
+  .hashtag-dialog .MuiDialog-paper {
+    width: 550px;
+    max-width: 90vw;
+    padding: 0px !important;
+    border-radius: 20px;
+  }
+  
+  .dialog .MuiDialog-paper {
+    width: 550px;
+    max-width: 90vw;
+    padding: 0px !important;
+    border-radius: 20px;
+  }
+  
